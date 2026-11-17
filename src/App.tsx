@@ -7,6 +7,7 @@ import { scribble } from './scribble';
 import Feedback from './Feedback';
 import { Info, Shell } from './Layout';
 import Pills from './Pills';
+import HeroTurtle from './HeroTurtle';
 
 const KEY = 'globio.examready.v1';
 interface Saved { id: string; conf: number | null; answers: Record<string, number>; done: boolean }
@@ -44,7 +45,7 @@ export default function App() {
   }, [s.id, s.conf, s.done, idx]);
 
   if (s.conf === null) return (
-    <Shell nav><main className="hero" id="start">
+    <Shell nav><div className="hero-wrap"><main className="hero" id="start">
       <p className="mono">German A1 · 15 questions · 10 minutes · free</p>
       <h1>Know you are ready before you book.</h1>
       <p className="lead">Failing the A1 exam costs the fee and months of your plan. Take a 10-minute check. Get a readiness score by skill and exactly what to practise.</p>
@@ -58,7 +59,7 @@ export default function App() {
       </div>
       <Pills />
       <p className="mono">Tap a word to flip it. These are the kinds of words the check uses.</p>
-    </main><Info /></Shell>
+    </main><HeroTurtle /></div><Info /></Shell>
   );
 
   if (!s.done) {
