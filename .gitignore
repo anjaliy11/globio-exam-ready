@@ -1,0 +1,17 @@
+node_modules
+dist
+data
+*.log
+.env
+.env.local
+.env.*.local
+.vercel
+.netlify
+coverage
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+*.zip
+AGENTS.md
+docs/VIDEO.md
+docs/DEPLOY.md
