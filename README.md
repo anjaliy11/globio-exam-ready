@@ -2,7 +2,7 @@
 
 A free German A1 readiness check for learners deciding when to book the Goethe or ÖSD exam.
 
-**Live app:** [your Vercel URL]
+**Live app:** https://globio-exam-ready-chi.vercel.app/
 **Video walkthrough:** [your video URL]
 
 ## The problem
