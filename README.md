@@ -3,7 +3,12 @@
 A free German A1 readiness check for learners deciding when to book the Goethe or ÖSD exam.
 
 **Live app:** https://globio-exam-ready-chi.vercel.app/
-**Video walkthrough:** [your video URL]
+**Video walkthrough:** https://www.loom.com/share/bd8f355abb764c1d8ea775e37e426d02
+## Goals
+1. Give a clear ready / almost / not-yet answer in about 10 minutes.
+2. Show readiness by skill and the 2 to 3 things to practise.
+3. Be honest about uncertainty, so learners can trust it.
+4. Create a path from result to Globio's exam preparation.
 
 ## The problem
 Many learners finish A1 and book the exam without knowing if they are ready. Some fail and lose the exam fee and months of their plan abroad.
